@@ -313,7 +313,7 @@ Module.register('MMM-BackgroundSlideshow', {
       this.config.gradientDirection === 'horizontal' ||
       this.config.gradientDirection === 'both'
     ) {
-      this.createGradientDiv('right', this.config.horizontalGradient, wrapper);
+      this.createGradientDiv('left', this.config.horizontalGradient, wrapper);
     }
 
     if (this.config.showImageInfo) {
